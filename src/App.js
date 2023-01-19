@@ -32,7 +32,6 @@ const App = () => {
       <OtherFinancials />
       <Join />
       <Footer />
-      {/* <div className='h-[4000px]'></div> */}
     </div>
   );
 };

@@ -30,10 +30,6 @@ const PrerequisitesSlider = ({ testimonials }) => {
               <div className="absolute bottom-[30px] p-[20px] text-white text-center">
                 <div className="mb-8 italic text-lg font-light">{message}</div>
                 <div className="flex items-center justify-center gap-x-[3px]">
-                  {/* <span className="text-[30px] text-[#99ff33] font-bold">
-                    ~
-                  </span>
-                  <div className="text-[20px] font-bold">{name}</div> */}
                 </div>
               </div>
             </div>

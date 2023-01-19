@@ -3,16 +3,8 @@ import React, { useState, useEffect } from "react";
 // import header data
 import { header } from "../data";
 
-// import components
-// import Nav from '../components/Nav';
-// import NavMobile from './NavMobile';
-
-// import icons
-// import { RiMenu4Fill, RiCloseFill } from 'react-icons/ri';
-
 const Header = () => {
   const [isActive, setIsActive] = useState(false);
-  // const [navMobile, setNavMobile] = useState(false);
 
   useEffect(() => {
     // scroll event
@@ -22,10 +14,7 @@ const Header = () => {
   });
 
   // destructure header data
-  const {
-    logo,
-    // , btnLoginText, btnSignupText
-  } = header;
+  const { logo } = header;
   return (
     <header
       className={`${
@@ -37,32 +26,6 @@ const Header = () => {
       <a href="/">
         <img className="h-[3rem]" src={logo} alt="" />
       </a>
-
-      {/* nav - initially hidden - show in desktop mode */}
-      {/* <Nav /> */}
-
-      {/* buttons - initally hidden - show in desktop mode */}
-      {/* <div className="hidden lg:flex space-x-4">
-        <button className="btn btn-sm text-white hover:text-primary-200 transition">
-          {btnLoginText}
-        </button>
-        <button className="btn btn-sm btn-primary">{btnSignupText}</button>
-      </div> */}
-
-      {/* nav menu button - hide on desktop */}
-      <div
-        // onClick={() => setNavMobile(!navMobile)}
-        className="lg:hidden absolute right-4"
-      >
-        {/* {navMobile ? (
-          <RiCloseFill className='text-3xl text-primary-200 cursor-pointer' />
-        ) : ( */}
-        {/* <RiMenu4Fill className='text-3xl text-primary-200 cursor-pointer' /> */}
-        {/* )} */}
-      </div>
-
-      {/* nav mobile - hide on desktop */}
-      {/* <NavMobile navMobile={navMobile} /> */}
     </header>
   );
 };

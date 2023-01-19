@@ -29,16 +29,6 @@ const PlanList = ({ plans }) => {
               <div className="flex flex-row lg:flex-col gap-x-8 gap-y-8 lg:gap-x-0 items-center">
                 {/* name & icon wrapper */}
                 <div>
-                  {/* name */}
-                  {/* <div
-                    className={`${
-                      currentIndex === index
-                        ? 'bg-white text-neutral-500'
-                        : 'bg-neutral-500 text-white'
-                    } h-[26px] font-primary text-sm font-semibold max-w-min mx-auto px-[14px] flex items-center justify-center mb-8`}
-                  >
-                    {name}
-                  </div> */}
                   {/* icon */}
                   <div className="text-[40px] lg:text-[100px] font-primary font-extrabold text-center flex flex-col items-center justify-center">
                     <div className="leading-none">
@@ -47,28 +37,10 @@ const PlanList = ({ plans }) => {
                         {currentIndex === 1 ? "%" : null}
                       </span>
                     </div>
-                    {/* <span className='text-sm font-medium'>/month</span> */}
                   </div>
                 </div>
-                {/* list & btn wrapper */}
                 <div>
-                  {/* list */}
-                  <ul className="flex flex-col gap-y-4 mb-8">
-                    {/* {list.map((item, idx) => {
-                      return (
-                        <li
-                          className='flex items-center gap-x-[10px]'
-                          key={idx}
-                        >
-                          <div>
-                            <BsCheckCircleFill className='text-lg' />
-                          </div>
-                          <div>{item.name}</div>
-                        </li>
-                      );
-                    })} */}
-                  </ul>
-                  {/* btn */}
+                  {/* description */}
                   <p
                     className={`${
                       currentIndex === index ? "text-white" : "text-neutral-500"

@@ -22,7 +22,6 @@ const BrandSlider = () => {
       slidesPerView={2}
       spaceBetween={32}
       navigation={true}
-      // grabCursor={true}
       breakpoints={{
         768: {
           slidesPerView: 3,
