@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply font-secondary text-neutral-400 bg-[#e5e5e5];
+    @apply font-secondary text-neutral-400 bg-neutral-500;
   }
   h1,
   h2,

@@ -1,0 +1,41 @@
+.brandSlider .swiper-wrapper {
+  height: 420px;
+  /* background: pink; */
+}
+
+.brandSlider .swiper-button-prev::after,
+.brandSlider .swiper-button-next::after {
+  content: '';
+}
+
+.brandSlider .swiper-button-prev,
+.brandSlider .swiper-button-next {
+  top: 96%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 36px;
+  height: 36px;
+}
+
+.brandSlider .swiper-button-prev {
+  left: 88.4%;
+  background-image: url('../src/assets/img/brands/icons/chevron-left.svg');
+}
+
+.brandSlider .swiper-button-next {
+  background-image: url('../src/assets/img/brands/icons/chevron-right.svg');
+  right: 66px;
+}
+
+@media (max-width: 1300px) {
+  .brandSlider .swiper {
+    height: auto;
+  }
+  .brandSlider .swiper-wrapper {
+    height: 320px;
+  }
+  .brandSlider .swiper-button-prev,
+  .brandSlider .swiper-button-next {
+    display: none;
+  }
+}

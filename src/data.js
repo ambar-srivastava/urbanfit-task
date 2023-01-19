@@ -1,210 +1,175 @@
 // images
-import Logo from '../src/assets/img/header/logo.svg';
-import ResistanceImg from '../src/assets/img/workouts/resistance.png';
-import BoxingImg from '../src/assets/img/workouts/boxing.png';
-import BodyPumpImg from '../src/assets/img/workouts/body-pump.png';
-import YogaImg from '../src/assets/img/workouts/yoga.png';
-import FullBodyImg from '../src/assets/img/workouts/full-body.png';
-import FitnessImg from '../src/assets/img/workouts/fitness.png';
-import BattleRopeImg from '../src/assets/img/workouts/battle-rope.png';
-import CommunityImg1 from '../src/assets/img/community/img1.png';
-import CommunityImg2 from '../src/assets/img/community/img2.png';
-import CommunityImg3 from '../src/assets/img/community/img3.png';
-import CommunityImg4 from '../src/assets/img/community/img4.png';
-import JoinImg from '../src/assets/img/join/woman.png';
+import Logo from "../src/assets/img/header/ulogowhite.png";
+import CreatineImg from "../src/assets/img/brands/creatine.png";
+import WheyProteinImg from "../src/assets/img/brands/whey.png";
+import MassImg from "../src/assets/img/brands/mass.png";
+import BCAAsImg from "../src/assets/img/brands/bcaa.png";
+import CaseinImg from "../src/assets/img/brands/casein.png";
+import GlutamineImg from "../src/assets/img/brands/glutamine.png";
+import FishOilImg from "../src/assets/img/brands/fishoil.png";
+import PrerequisitesImg1 from "../src/assets/img/prerequisites/img1.png";
+import PrerequisitesImg2 from "../src/assets/img/prerequisites/img2.png";
+import PrerequisitesImg3 from "../src/assets/img/prerequisites/img3.png";
+import PrerequisitesImg4 from "../src/assets/img/prerequisites/img4.png";
+import JoinImg from "../src/assets/img/join/last.png";
 // icons
-import UsersIcn from '../src/assets/img/about/icons/users-icn.svg';
-import CalendarIcn from '../src/assets/img/workouts/icons/calendar.svg';
-import PriceIcn from '../src/assets/img/pricing/icons/price.svg';
-import CommunityIcn from '../src/assets/img/community/icons/community-icn.svg';
-import QuestionMarkIcn from '../src/assets/img/faq/icons/question-mark.svg';
+import UsersIcn from "../src/assets/img/about/icons/users-icn.svg";
+import DumbellIcn from "../src/assets/img/brands/icons/dumbell.svg";
+import VisionIcn from "../src/assets/img/vision/icons/vision.svg";
+import PrerequisitesIcn from "../src/assets/img/prerequisites/icons/prerequisites-icn.svg";
+import QuestionMarkIcn from "../src/assets/img/otherFinancials/icons/question-mark.svg";
 
 export const header = {
   logo: Logo,
-  btnLoginText: 'Log in',
-  btnSignupText: 'Sign Up',
 };
 
-export const nav = [
-  { name: 'Home', href: '/' },
-  { name: 'About', href: '/' },
-  { name: 'Workouts', href: '/' },
-  { name: 'Pricing', href: '/' },
-  { name: 'Community', href: '/' },
-  { name: 'FAQ', href: '/' },
-];
-
 export const banner = {
-  titlePart1: 'Get the best part of your day',
-  titlePart2: '– you fit here.',
+  titlePart1: "Be your Own Boss",
+  titlePart2: "– Profitable Business.",
   subtitle:
-    'We provide serious fitness but within a fun and friendly, safe space.',
-  textBtn: 'Join Now',
-  img: '',
+    "We have vast customer base already in pune with over 10,000 regular customer",
+  textBtn: "Get Francise",
 };
 
 export const about = {
   icon: UsersIcn,
-  title: 'Our misson',
-  subtitle1:
-    'We are distinguished by our unsurpassed motivating atmosphere, knowledgeable staff, and premier exercise equipment, which supports our members in meeting their individual fitness goals.',
-  subtitle2:
-    'The strength of our heart-felt identity is utilized to inspire every person that steps foot into our gyms to better themselves.',
-  link: 'Join Now',
+  title: "Why UrbanFit",
+  subtitle1: `Owning a franchise not only will give you the opportunity to take charge of your own successful business but also allows you to be a part of the movement in the business of health supplements.`,
+  subtitle2: `If you are accepted as a UrbanFit Franchise owner, you will be a partner of India’s fastest growing fitness tech brand and the most trustworthy name in the industry`,
+  link: "Get Francise Now",
 };
 
-export const workouts = {
-  icon: CalendarIcn,
-  title: 'Training programs',
+export const brands = {
+  icon: DumbellIcn,
+  title: "Brand Items",
   programs: [
     {
-      image: ResistanceImg,
-      name: 'Resistance',
+      image: CreatineImg,
+      name: "Creatine",
     },
     {
-      image: BoxingImg,
-      name: 'Boxing',
+      image: WheyProteinImg,
+      name: "Whey Protein",
     },
     {
-      image: BodyPumpImg,
-      name: 'Body Pump',
+      image: MassImg,
+      name: "Mass gainers",
     },
     {
-      image: YogaImg,
-      name: 'Yoga',
+      image: BCAAsImg,
+      name: "BCAAs",
     },
     {
-      image: FullBodyImg,
-      name: 'Full Body',
+      image: CaseinImg,
+      name: "Casein Protein",
     },
     {
-      image: FitnessImg,
-      name: 'Fitness',
+      image: GlutamineImg,
+      name: "Glutamine",
     },
     {
-      image: BattleRopeImg,
-      name: 'Battle Rope',
+      image: FishOilImg,
+      name: "Fish Oil",
     },
   ],
 };
 
-export const pricing = {
-  icon: PriceIcn,
-  title: 'Pricing plan',
+export const vision = {
+  icon: VisionIcn,
+  title: "Urbanfit Franchies Vision",
   plans: [
     {
-      name: 'Basic',
-      price: '20',
-      list: [
-        { name: 'unlimited gym access' },
-        { name: '1 training programs' },
-        { name: 'free fitness consultation' },
-      ],
+      icon: "🛡",
+      description:
+        "We aim to bring the change in fitness industry by establishing network of state of the art health supplement stores",
       delay: 600,
     },
     {
-      name: 'Premium',
-      price: '35',
-      list: [
-        { name: 'unlimited gym access' },
-        { name: '5 training programs' },
-        { name: 'free fitness consultation' },
-        { name: 'personal trainer' },
-      ],
+      icon: "0",
+      description:
+        "There is no possibility of fake products with UrbanFit due to our vast tie network of premium supplement brands",
       delay: 800,
     },
     {
-      name: 'Elite',
-      price: '49',
-      list: [
-        { name: 'unlimited gym access' },
-        { name: 'all training programs' },
-        { name: 'free fitness consultation' },
-        { name: 'personal trainer' },
-        { name: '50% off drinks' },
-      ],
+      icon: "🤝🏻",
+      description:
+        "Our priority will always be our customer. We aim to build trust, happiness and loyalty for our customers",
       delay: 1000,
     },
   ],
 };
 
-export const community = {
-  icon: CommunityIcn,
-  title: 'Community',
+export const prerequisites = {
+  icon: PrerequisitesIcn,
+  title: "Prerequisites",
   testimonials: [
     {
-      image: CommunityImg1,
-      name: 'Mark A.',
-      message:
-        '“Great location, great price and great, helpful people. What to want more?”',
+      image: PrerequisitesImg1,
+      message: "“People willing to donate time and resources to the business”",
     },
     {
-      image: CommunityImg2,
-      name: 'Lauren K.',
+      image: PrerequisitesImg2,
       message:
-        '“Gymme changed my life. Not only physically but mentally as well. I’m a better mother, and all around better human being because of this gym.”',
+        "“People with long term vision and the determination to make it happen”",
     },
     {
-      image: CommunityImg3,
-      name: 'Jhon D.',
-      message:
-        '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
+      image: PrerequisitesImg3,
+      message: "“Financial and logistical requirements and guidelines”",
     },
     {
-      image: CommunityImg4,
-      name: 'Anne R.',
+      image: PrerequisitesImg4,
       message:
-        '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
+        "“A sound investor profile with sufficient back up and ability to sustain during adverse scenarios”",
+    },
+    {
+      image: PrerequisitesImg1,
+      message:
+        "“Attractive space in a high footfall area with a minimum carpet area of 200 sq. ft - 500 sq. ft.”",
+    },
+    {
+      image: PrerequisitesImg2,
+      message:
+        "“Willingness to adhere to high customer service standards set by UrbanFit.”",
     },
   ],
 };
 
-export const faq = {
+export const otherFinancials = {
   icon: QuestionMarkIcn,
-  title: 'FAQ',
+  title: "Other Financials",
   accordions: [
     {
-      question: 'How can I book a workout class?',
+      question: "Franchise Fee 5 Lacs",
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        "Start your Franchise Business Under Rs.5 Lakh Now. Check out India's most wanted Franchise Opportunity Under Rs.5 Lakh Only",
     },
     {
-      question: 'Can I pay by cash for my membership?',
+      question: "Interiors 1800-2200/sqft",
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        "The would be franchisor should have minimum shop area of 200 sqft",
     },
     {
-      question: 'What age do I need to be to join?',
+      question: "Stock 8-15 Lacs",
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        "Franchisor is only allowed to purchase stock from the parent company",
     },
     {
-      question: 'Are there any lockers?',
+      question: "Brand Ambassador Fee* 1.5 Lacs",
       answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
-    },
-    {
-      question: 'How do I cancel my membership?',
-      answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
-    },
-    {
-      question: 'Is there water available at the gym?',
-      answer:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+        "The Brand Ambassador Fee is around 1.5 lakh to perform at an event.",
     },
   ],
 };
 
 export const join = {
   image: JoinImg,
-  title: 'Wanna join & have fun?',
+  title: "Wanna join Us",
   subtitle:
-    'We’ll keep you updated on the things you need to know about Gymme. Nothing more, nothing less.',
-  btnText: 'Join now',
+    "We are looking for people who are ready and eager to work with us to successfully launch a franchise and smoothly operate it.",
+  btnText: "get francise now",
 };
 
 export const footer = {
   logo: Logo,
-  copyrightText: 'All rights reserved. Gymme 2022.',
+  copyrightText: "All rights reserved. URBANFIT WELLNESS 2023.",
 };
